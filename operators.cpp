@@ -41,17 +41,22 @@ int main()
     }*/
 
    //bitwise operators
-   int x=26, y=9;
+   /**int x=26, y=9;
    cout<<"x&y:"<<(x&y)<<endl;
    cout<<"x|y:"<<(x|y)<<endl;
    cout<<"x^y:"<<(x^y)<<endl;
    cout<<"x<<y:"<<(x<<y)<<endl;
    cout<<"x>>y:"<<(x>>y)<<endl;
-   cout<<"~x:"<<(~x)<<endl;
+   cout<<"~x:"<<(~x)<<endl;**/
 
 
    //Miscellanous operator
    /**float x=6.78;
    cout<<(int)x<<endl;
    cout<<x<<endl;**/
+
+   //conditional operqator
+   int a=3,b=12;
+   cout<<"Maximum is:"<<((a>b)?(a+2):(b-5))<<endl;
+   cout<<sizeof(a);
 }
