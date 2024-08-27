@@ -9,6 +9,8 @@ int main()
     long long int ll_int = 9991654321;
     //int8_t int8_variable = 2;
 
+    //data
+
     cout<<"size of short int "<<sizeof(short int)<<endl;
     cout<<"size of int "<<sizeof(int)<<endl;
     cout<<"size of long "<<sizeof(long)<<endl;
