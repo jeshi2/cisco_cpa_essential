@@ -16,7 +16,7 @@ int main()
     studentDetails.erase(studentDetails.begin()+2);
     for(int i=0;i<studentDetails.size(); i++)
     {
-        cout<<studentDetails[i].first<<" "<<studentDetails[i].second<<endl;
+        cout<<studentDetails.at(i).first<<" "<<studentDetails.at(i).second<<endl;
     }
     return 0;
 }
