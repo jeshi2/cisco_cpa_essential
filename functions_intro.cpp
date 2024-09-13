@@ -3,23 +3,23 @@ using namespace std;
 
 // int sum(int x, int y); // function declaration/prototypes
 // string display();
-void greet()
-{
-    cout<<"Hi"<<endl;
-}
-void display()
-{
-    cout<<"I am in a display"<<endl;
-    greet();
-    cout<<"I am exiting display function";
-}
+// void greet()
+// {
+//     cout<<"Hi"<<endl;
+// }
+// void display()
+// {
+//     cout<<"I am in a display"<<endl;
+//     greet();
+//     cout<<"I am exiting display function";
+// }
 int main()
 {
     // sum(3,4);
     //  string s;
     //  s=display();
     //  cout<<display();
-    display();
+    // display();
     return 0;
 }
 
